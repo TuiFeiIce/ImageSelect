@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luck.picture.lib.widget.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/eight"/>
+
+    <ImageView
+        android:id="@+id/iv_del"
+        android:layout_width="@dimen/sixteen"
+        android:layout_height="@dimen/sixteen"
+        android:layout_alignTop="@+id/iv_content"
+        android:layout_alignRight="@+id/iv_content"
+        android:background="@drawable/recy_image_del"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        tools:visibility="visible" />
+</com.luck.picture.lib.widget.SquareRelativeLayout>
